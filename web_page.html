@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        fieldset {
+            background-color: green;
+            display: flex;
+        }
+
+        .main {
+            height: 100%;
+            width: 18%;
+            background-color: white;
+            border-radius: 8px;
+            margin: 10px 0px;
+
+        }
+
+        .main div {
+            margin: 30px 50px;
+            color: rgba(3, 1, 1, 0.482);
+
+        }
+
+        .main button {
+            margin-top: 85px;
+            margin-left: 75px;
+            margin-bottom: 80px;
+            border: none;
+            background-color: white;
+            font-weight: 500;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .search {
+            background-color: green;
+            width: 1150px;
+            margin: 10px 0px 10px 20px;
+            color: rgba(0, 0, 0, 0.578);
+        }
+
+        .table {
+            background-color: white;
+            margin-top: 20px;
+            border-radius: 8px;
+            padding-bottom: 67px;
+        }
+
+        .fad {
+            display: flex;
+            justify-content: space-between;
+            padding-top: 15px;
+        }
+
+        .fad button {
+            margin-right: 50px;
+            padding: 5px;
+            background-color: white;
+            border: 1px solid rgba(0, 0, 0, 0.363);
+        }
+
+        #b {
+            color: white;
+            background-color: green;
+            border: none;
+            border-radius: 3px;
+            padding: 7px;
+
+        }
+
+        .tl {
+            margin-top: 30px;
+        }
+
+        .tl th {
+            text-align: left;
+            padding-left: 15px;
+        }
+
+        .tl li {
+            margin-left: 20px;
+            margin-top: 20px;
+            list-style: none;
+        }
+
+        #sc {
+            width: 100%;
+            background-color: white;
+            height: 7%;
+            padding-left: 5px;
+        }
+
+        #sc input {
+            width: 85%;
+            padding: 10px;
+            margin-top: 7px;
+            border: 1px solid rgba(0, 0, 0, 0.241);
+        }
+
+        .page {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 95px;
+            margin: 30px;
+        }
+
+        .page button {
+            padding: 3px;
+        }
+
+        .k {
+            margin-left: 10px;
+        }
+
+        h2 {
+            margin-left: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <div class="main">
+            <div>
+                <img src="Entorno-Green-Logo[104].png" alt="">
+            </div>
+            <div>Dashobard</div>
+            <div>Farmer Database</div>
+            <div>dealer Database</div>
+            <div>Employee Database</div>
+            <div>Resources</div>
+            <button>Log Out</button>
+        </div>
+        <div class="search">
+            <div id="sc">
+                <input type="search" placeholder="search farmer, employee,dealer">
+            </div>
+            <div class="table">
+                <div class="fad">
+                    <h2>Farmers List</h2>
+                    <div>
+                        <button id="b">add Farmer</button>
+                        <button> Download all</button>
+                    </div>
+                </div>
+                <table style="width: 100%;" class="tl">
+                    <tr>
+                        <th>Farmer Name</th>
+                        <th>Buying price</th>
+                        <th>Quantity</th>
+                        <th>Threshold Value</th>
+                        <th> Modify</th>
+                        <th>Delete</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <li>Maggi</li>
+                            <li>Bru</li>
+                            <li>Rad Bull</li>
+                            <li>Burn Vita</li>
+                            <li>Horlicks</li>
+                            <li>harpic</li>
+                            <li>Ariel</li>
+                            <li>Scotch Brite</li>
+                            <li>coca cola</li>
+                        </td>
+                        <td>
+                            <li>430</li>
+                            <li>257</li>
+                            <li>405</li>
+                            <li>502</li>
+                            <li>530</li>
+                            <li>605</li>
+                            <li>408</li>
+                            <li>359</li>
+                            <li>205</li>
+                        </td>
+                        <td>
+                            <li>43 Packets</li>
+                            <li>22 Packets</li>
+                            <li>27 Packets</li>
+                            <li>30 Packets</li>
+                            <li>6 Packets</li>
+                            <li>3 Packets</li>
+                            <li>13 Packets</li>
+                            <li>23 Packets</li>
+                            <li>83 Packets</li>
+                        </td>
+                        <td>
+                            <li>12 Packets</li>
+                            <li>10 Packets</li>
+                            <li> 9Packets</li>
+                            <li> 6 Packets</li>
+                            <li>8 Packets</li>
+                            <li>4 Packets</li>
+                            <li> 9 Packets</li>
+                            <li> 4 Packets</li>
+                            <li>7 Packets</li>
+                        </td>
+                        <td>
+
+                        </td>
+                        <td>
+                            <li>Delete</li>
+                            <li>Delete</li>
+                            <li>Delete</li>
+                            <li>Delete</li>
+                            <li>Delete</li>
+                            <li>Delete</li>
+                            <li>Delete</li>
+                            <li>Delete</li>
+                        </td>
+                    </tr>
+                </table>
+                <div class="page">
+                    <button>Previous</button>
+                    <p>Page 1 of 10</p>
+                    <button>Next</button>
+                </div>
+            </div>
+        </div>
+    </fieldset>
+
+</body>
+
+</html>
